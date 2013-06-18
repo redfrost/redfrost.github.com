@@ -1,7 +1,7 @@
 // Smooth Scroll
 		    $(document).ready(function() {
 		    
-		      $('.nav a').smoothScroll({offset: -0});
+		      $('.nav a').smoothScroll({offset: -73});
 		    
 		    });
 
@@ -15,8 +15,9 @@
 
 
 // Scrollspy offset
-$('[data-spy="scroll"]').scrollspy({ offset: 100 });
-
+    jQuery(document).ready(function () {
+        $('[data-spy="scroll"]').scrollspy({ offset: -400 });
+    });
 
 
 // Tooltip
