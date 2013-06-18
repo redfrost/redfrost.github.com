@@ -40,8 +40,9 @@ a {
 .animation-fast,
 .fading,
 .blogroll li a,
-.footer a
- { 
+.footer a,
+#links img,
+#links a { 
   -webkit-transition: all 200ms ease;
 	 -moz-transition: all 200ms ease;
 	  -ms-transition: all 200ms ease;
@@ -368,7 +369,7 @@ hr {
             }
     
             #links .link-box:hover img, #links .link-box:hover h4 a {
-                
+                opacity: 0.6;
                 }
     
     
