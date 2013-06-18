@@ -16,7 +16,7 @@
 
 // Scrollspy offset
     jQuery(document).ready(function () {
-        $('[data-spy="scroll"]').scrollspy({ offset: -400 });
+        $('[data-spy="scroll"]').scrollspy({ offset: 100 });
     });
 
 
