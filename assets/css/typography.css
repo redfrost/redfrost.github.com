@@ -5,11 +5,18 @@
 
 /* Font Set */
 body { 
-    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; 
+    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic", Dotum, Arial,sans-serif; 
     /* -webkit-font-smoothing: antialiased; better for dark background */
+    
+    font-size: 16px;font-size: 1em;
+    line-height: 1.5em;
     }
     h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
     .navbar, .brand, .btn { font-family: "museo-slab"; font-weight: 500; }
+
+p {
+    color: #444;
+}
 
 .dropcap {
     color: #000000;
@@ -23,3 +30,39 @@ body {
     }
 
 small { color: #888; }
+
+.lighter {
+    font-weight: lighter !important;
+    }
+
+.align-left {
+    text-align: left !important;
+    }
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-center, .align-centre {
+    text-align: center !important;
+}
+
+
+#about h1 {
+    color: #B12A41;
+    font-size: 3rem;
+    margin-bottom: 22px;
+}
+
+#links h1,
+#links h3,
+#links h4 {
+    font-weight: lighter;
+}
+
+#links h4 {
+    margin-top: 20px;
+}
+#links p {
+    font-size: 14px;font-size: 0.88em;
+}
