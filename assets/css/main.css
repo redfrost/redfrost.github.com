@@ -321,6 +321,7 @@ hr {
 }
 
 
+/* About Section */
 #about h1 {
     color: #B12A41;
     font-size: 3rem;
@@ -333,6 +334,9 @@ hr {
 
 
 
+
+
+/* Link section */
 #links .link-box {
     margin-bottom: 26px;
     }
@@ -345,17 +349,19 @@ hr {
     
     #links h4 {
         margin-top: 20px;
-    }    
+        margin-left: 60px;
+       }    
     
     #links p {
         font-size: 14px;font-size: 0.88em;
         line-height: 1.4em;
+        margin-left: 60px;
         }
     
         #links img {
             float: left;
-            margin: 0px 10px 0 0;
-            border-radius: 0;
+            margin: 0;
+            border-radius: 25px;
             width: 50px;
             height: 50px;
             box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
@@ -366,6 +372,61 @@ hr {
                 opacity: 0.6;
                 }
     
+    
+/* Flip animation */
+
+/* container keeps perspective */
+#links .list-box {
+	perspective: 1000;
+}
+
+.link-img:after {
+        background: #333333;
+        color: white;
+        content: "\f06e";
+        font-family: 'FontAwesome';
+        position: absolute;
+        display:  block;
+        font-size: 30px;
+        width: 50px;
+        height: 38px;
+        padding: 12px 0 0;
+        text-align: center;
+        top:0;
+        opacity:0;
+        border-radius: 25px;
+        
+        transform: rotateY(180deg);
+        -webkit-transition: all 80ms ease 100ms;
+    	   -moz-transition: all 80ms ease 100ms;
+    	    -ms-transition: all 80ms ease 100ms;
+    	     -o-transition: all 80ms ease 100ms;
+    	        transition: all 80ms ease 100ms;
+                }
+
+/* flip  */
+.link-box:hover .link-img, .link-box.hover .link-img { transform: rotateY(180deg); }
+.link-box:hover .link-img:after, .link-box.hover .link-img:after { opacity: 1; font-size: 24px; }
+
+/* flip speed */
+.link-img {      
+  -webkit-transition: all 600ms ease;
+	 -moz-transition: all 600ms ease;
+	  -ms-transition: all 600ms ease;
+	   -o-transition: all 600ms ease;
+	      transition: all 600ms ease;     
+	    transform-style: preserve-3d;
+	    position: relative;
+    }
+    /* must be placed at the end */
+    .link-img {
+        z-index: 2;
+        position: absolute;
+        }
+
+
+
+
 
 
 
