@@ -17,7 +17,10 @@ body {
 
 p {
     color: #444;
+    line-height: 1.6em;
 }
+
+small { color: #888; }
 
 .dropcap {
     color: #000000;
@@ -30,49 +33,13 @@ p {
     line-height: 1;
     }
 
-small { color: #888; }
-
-.lighter {
-    font-weight: lighter !important;
-    }
-
-.align-left {
-    text-align: left !important;
-    }
-
-.align-right {
-    text-align: right !important;
-}
-
-.align-center, .align-centre {
-    text-align: center !important;
-}
 
 
-#about h1 {
-    color: #B12A41;
-    font-size: 3rem;
-    margin-bottom: 22px;
-}
 
-#about .btn {
-    margin: 10px 0;
-}
 
-#links h1,
-#links h3,
-#links h4 {
-    font-weight: lighter;
-}
 
-#links h4 {
-    margin-top: 20px;
-}
-#links p {
-    font-size: 14px;font-size: 0.88em;
-    line-height: 1.4em;
-}
 
-hr {
-    border-color: #ECE4D2 !important;
-}
+
+
+
+
