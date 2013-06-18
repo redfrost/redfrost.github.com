@@ -12,7 +12,7 @@ body {
     line-height: 1.5em;
     }
     h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
-    .navbar, .brand, .btn { font-family: "museo-slab"; font-weight: 500; }
+    .navbar, .brand, .btn { font-family: "museo-slab","Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic",Dotum, Arial,sans-serif; font-weight: 500; }
 
 p {
     color: #444;
