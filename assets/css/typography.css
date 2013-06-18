@@ -9,7 +9,8 @@ body {
     /* -webkit-font-smoothing: antialiased; better for dark background */
     
     font-size: 16px;font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.6em;
+    font-weight: 300;
     }
     h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
     .navbar, .brand, .btn { font-family: "museo-slab","Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic",Dotum, Arial,sans-serif; font-weight: 500; }
