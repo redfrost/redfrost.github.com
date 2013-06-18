@@ -11,9 +11,11 @@ body {
     font-size: 16px;font-size: 1em;
     line-height: 1.6em;
     font-weight: 300;
+    
     }
-    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
-    .navbar, .brand, .btn { font-family: "museo-slab","Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic",Dotum, Arial,sans-serif; font-weight: 500; }
+    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic", Dotum, Arial,sans-serif;}
+    
+    .navbar, .brand, .btn { font-family: "museo-slab","proxima-nova","Helvetica Neue","Helvetica""Apple SD Gothic Neo", NanumGothic, Applegothic,"Malgun Gothic",Dotum, Arial,sans-serif; font-weight: 500; }
 
 p {
     color: #444;

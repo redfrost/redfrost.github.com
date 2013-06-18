@@ -40,7 +40,7 @@ a {
 .animation-fast,
 .fading,
 .blogroll li a,
-.footer a
+.footer a, .navbar .nav > li > a
  { 
   -webkit-transition: all 200ms ease;
 	 -moz-transition: all 200ms ease;
