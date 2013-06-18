@@ -66,3 +66,7 @@ small { color: #888; }
 #links p {
     font-size: 14px;font-size: 0.88em;
 }
+
+hr {
+    border-color: #ECE4D2 !important;
+}
