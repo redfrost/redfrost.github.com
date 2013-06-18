@@ -1,14 +1,7 @@
-// iPhone pull addressbar
-/mobile/i.test(navigator.userAgent) && !window.location.hash && setTimeout(function () {
-  window.scrollTo(0, 1);
-}, 1000);
-
-
-
 // Smooth Scroll
 		    $(document).ready(function() {
 		    
-		      $('.nav a').smoothScroll({offset: -73});
+		      $('.nav a').smoothScroll({offset: -0});
 		    
 		    });
 
