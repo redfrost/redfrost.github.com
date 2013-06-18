@@ -1,0 +1,113 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700,800);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400);
+*/
+
+/* Font-Face */
+@font-face {
+font-family: 'proxima-nova';
+    src: url(../font/proximanova-regular-webfont.eot);
+    src: url('../font/proximanova-regular-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-regular-webfont.woff) format('woff'),
+         url(../font/proximanova-regular-webfont.ttf) format('truetype'),
+         url('../font/proximanova-regular-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-style: italic;
+    src: url(../font/proximanova-regitalic-webfont.eot);
+    src: url('../font/proximanova-regitalic-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-regitalic-webfont.woff) format('woff'),
+         url(../font/proximanova-regitalic-webfont.ttf) format('truetype'),
+         url('../font/proximanova-regitalic-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: 300;
+    src: url(../font/proximanova-light-webfont.eot);
+    src: url('../font/proximanova-light-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-light-webfont.woff) format('woff'),
+         url(../font/proximanova-light-webfont.ttf) format('truetype'),
+         url('../font/proximanova-light-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: 600;
+    src: url(../font/proximanova-semibold-webfont.eot);
+    src: url('../font/proximanova-semibold-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-semibold-webfont.woff) format('woff'),
+         url(../font/proximanova-semibold-webfont.ttf) format('truetype'),
+         url('../font/proximanova-semibold-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: 600;
+    font-style: italic;
+    src: url(../font/proximanova-semibolditalic-webfont.eot);
+    src: url('../font/proximanova-semibolditalic-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-semibolditalic-webfont.woff) format('woff'),
+         url(../font/proximanova-semibolditalic-webfont.ttf) format('truetype'),
+         url('../font/proximanova-semibolditalic-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: bold;
+    src: url(../font/proximanova-bold-webfont.eot);
+    src: url('../font/proximanova-bold-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-bold-webfont.woff) format('woff'),
+         url(../font/proximanova-bold-webfont.ttf) format('truetype'),
+         url('../font/proximanova-bold-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../font/proximanova-boldit-webfont.eot);
+    src: url('../font/proximanova-boldit-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-boldit-webfont.woff) format('woff'),
+         url(../font/proximanova-boldit-webfont.ttf) format('truetype'),
+         url('../font/proximanova-boldit-webfont.svg') format('svg')
+}
+@font-face {
+    font-family: 'proxima-nova';
+    font-weight: 900;
+    src: url(../font/proximanova-extrabold-webfont.eot);
+    src: url('../font/proximanova-extrabold-webfont.eot?iefix') format('eot'),
+         url(../font/proximanova-extrabold-webfont.woff) format('woff'),
+         url(../font/proximanova-extrabold-webfont.ttf) format('truetype'),
+         url('../font/proximanova-extrabold-webfont.svg') format('svg')
+}
+
+
+@font-face {
+    font-family: 'museo-slab';
+    font-weight: 500;
+    src: url(../font/museo_slab_500-webfont-webfont.eot);
+    src: url('../font/museo_slab_500-webfont-webfont?iefix') format('eot'),
+         url(../font/museo_slab_500-webfont-webfont.woff) format('woff'),
+         url(../font/museo_slab_500-webfont-webfont.ttf) format('truetype'),
+         url('../font/museo_slab_500-webfont-webfont.svg') format('svg')
+}
+
+
+
+/* Font Set */
+body { 
+    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; 
+    /* -webkit-font-smoothing: antialiased; better for dark background */
+    }
+    h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand { font-family:; }
+    .navbar, .brand, .btn { font-family: "museo-slab"; font-weight: 500; }
+
+.dropcap {
+    color: #000000;
+    float: left;
+    font-size: 2.88rem;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 8px;
+    padding-top: 0;
+    line-height: 1;
+    }
+
+small { color: #888; }
