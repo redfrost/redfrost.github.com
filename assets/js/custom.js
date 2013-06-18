@@ -1,17 +1,12 @@
 // Smooth Scroll
-		    $(document).ready(function() {
-		    
-		      $('.nav a').smoothScroll({offset: -73});
-		    
-		    });
+    $(document).ready(function() {
+        $('.nav a').smoothScroll({offset: -73});
+	});
 
     // To Top
-		    $(document).ready(function() {
-		    
-		      $('.back_top a').smoothScroll({offset: 0});
-		    
-		    });
-
+    $(document).ready(function() {
+        $('.back_top a').smoothScroll({offset: 0});
+    });
 
 
 // Scrollspy offset
@@ -21,28 +16,26 @@
 
 
 // Tooltip
-	  jQuery(document).ready(function () {
-	    $("[rel=tooltip]").tooltip();
-	  });
-
+    jQuery(document).ready(function () {
+        $("[rel=tooltip]").tooltip();
+    });
 	
 	
 // Popover
-	  jQuery(document).ready(function () {
-	    $("[rel=popover]").popover();
-	  });
+    jQuery(document).ready(function () {
+        $("[rel=popover]").popover();
+    });
 
 
 // Carousel	Auto
-		jQuery(document).ready(function() {
-			 $('#myCarousel.slide').carousel({
-				   interval: 6000,
-					  cycle: true
-			 });
+    jQuery(document).ready(function() {
+		$('#myCarousel.slide').carousel({
+		    interval: 6000,
+			    cycle: true
+		    });
 		});
-		var $ = jQuery.noConflict();
+	var $ = jQuery.noConflict();
 		
-
 
 //Convert Address tags into a map link
 	jQuery(document).ready(function () {
@@ -51,7 +44,6 @@
             $(this).html(link);
         });
     });
-
 
 
 //Convert Address into an embedded map
