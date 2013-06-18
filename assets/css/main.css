@@ -65,7 +65,7 @@ a {
 /* Logo */
 .site-title { margin: 0; }
 .navbar .brand {
-    color: #FFFFFF;
+    color: #f8f2e4;
     text-shadow: none;
     font-size: 32px;font-size:2rem;
 }
@@ -113,7 +113,7 @@ a {
 /* Nav Link style */
 .navbar .nav a { font-size:18px;font-size:1.13rem; }
 .navbar .nav > li > a {
-    color: #ECF0F1;
+    color: #f8f2e4;
     text-shadow: none;
     padding: 18px 15px;
     font-weight: normal;
@@ -203,7 +203,7 @@ a {
         color: #ECF0F1;
         padding-top: 10px;
         padding-bottom: 10px; 
-        font-weight: bold;   
+        font-weight: normal;   
         }
                           
         /* Dropdown link hover */
