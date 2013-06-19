@@ -1,3 +1,4 @@
+
 // Smooth Scroll
     $(document).ready(function() {
         $('.nav a').smoothScroll({offset: -73});
@@ -80,7 +81,22 @@
 		
 // Add your own		
 		
+
 		
-		
+// Show page after fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+          $("body").fadeIn(800);
+        });
+    });
+
+    // Hide scroll-fading back image until page is fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+          $(".scroll-fade-back").fadeIn(1000);
+        });
+    });
 		
 		
