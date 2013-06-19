@@ -471,11 +471,11 @@ hr {
 /* Footer
 ********************************/
 footer {
-    background:;
-    color: #999999;
+    background: #eedaac;
+    color: #6c685e;
     }
     footer .container {
-        border-top: 2px dashed #AAAAAA;
+        border-top:;
         padding: 30px 0 50px;
         }
 	    footer a:hover { opacity: 0.6; }
@@ -494,7 +494,7 @@ footer {
 	        display: inline-block; 
 	        }
             .footer_menu_box li a { 
-	            color: #666;
+	            color: #6c685e;
 	            text-transform: uppercase; 
 	            margin-right: 10px; 
 	            }
@@ -508,7 +508,7 @@ footer {
 
 /* Production */
 .maker {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #6c685e;
     float: left;
     padding-left: 6px;
     width: 200px;
@@ -523,7 +523,7 @@ footer {
 	margin: 14px 0;
 	}
     .back_top a {
-	    color: #999999;
+	    color: #6c685e;
     }
 
 /* SNS Links */
@@ -539,7 +539,7 @@ footer {
          padding: 0 4px;
         }
         .sns_icons_box li a {
-            color: #666;
+            color: #6c685e;
             font-size: 22px; font-size: 1.38rem;
             }
 
