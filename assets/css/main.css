@@ -318,6 +318,7 @@ a {
 
 /* Content
 ********************************/
+
 .main-content {
     padding-bottom: 40px;
 }
@@ -329,6 +330,48 @@ hr {
     border-style: dashed;
     border-width: 2px;
 }
+
+
+
+
+/* HERO page banner section */
+
+@media (min-width:767px) and (max-width:768px) {
+    .page-banner {
+        margin-bottom: 8px !important;
+        margin-left: -2px !important;
+        margin-top: -20px !important;
+        width: 768px !important;
+    }
+}
+
+@media (max-width:767px) {
+    #hero { margin: -20px; }
+}
+
+
+/* Scroll fade */
+.scroll-fade-back {   
+    width: 960px;
+    height: 540px;
+    background: #000;
+    display: block;
+    position: absolute;
+    top: 90px;
+    z-index: -1;
+}
+
+@media (max-width:979px) {
+    .scroll-fade {
+        opacity: 1 !important;
+        }
+        .scroll-fade-back {
+            display: none;
+            }
+}
+
+
+
 
 
 /* About Section */
@@ -368,28 +411,6 @@ hr {
    
 #about .btn:active {
      margin-top: 14px ! important;
-}
-
-
-
-/* Scroll fade */
-.scroll-fade-back {   
-    width: 960px;
-    height: 540px;
-    background: #000;
-    display: block;
-    position: absolute;
-    top: 90px;
-    z-index: -1;
-}
-
-@media (max-width:979px) {
-    .scroll-fade {
-        opacity: 1 !important;
-        }
-        .scroll-fade-back {
-            display: none;
-            }
 }
 
 
