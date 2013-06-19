@@ -685,3 +685,14 @@ footer {
   -moz-border-radius: 	0px;
   border-radius: 	0px;
 }
+
+
+
+
+/* Fix
+********************************/
+/* IPHONE FONT AUTO RESIZE DISABLE */
+html {
+    -webkit-text-size-adjust: none; 
+}
+
