@@ -81,8 +81,14 @@
 		
 // Add your own		
 		
+    // Hide scroll-fading back image until page is fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+          $("body").fadeTo("fast", 1);
+        });
+    });
 
-		
 
     // Hide scroll-fading back image until page is fully loaded
     $(document).ready(function() {
