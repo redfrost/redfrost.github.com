@@ -7,7 +7,7 @@
    ========================================================================== */
    
 body {
-    padding-top: 80px;
+    padding-top: 90px;
     background: #f8f2e4;
 }
 
@@ -332,7 +332,7 @@ hr {
 
 
 /* About Section */
-#about { padding: 0 0 20px 0px; }
+#about { padding: 14px 0 20px 0px; }
 
 #about h1 {
     color: #B12A41;
@@ -355,6 +355,75 @@ hr {
     padding: 20px;
     font-size: 1em;
 }
+
+
+.btn:hover {
+   -moz-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -o-transform: scale(1.1);
+   transform: scale(1.1);
+   -ms-transform: scale(1.1);
+    color: #fff;
+   }
+   
+#about .btn:active {
+     margin-top: 14px ! important;
+}
+
+
+
+/* Scroll fade */
+.scroll-fade-back {   
+    width: 960px;
+    height: 540px;
+    background: #000;
+    display: block;
+    position: absolute;
+    top: 90px;
+    z-index: -1;
+}
+
+@media (max-width:979px) {
+    .scroll-fade {
+        opacity: 1 !important;
+        }
+        .scroll-fade-back {
+            display: none;
+            }
+}
+
+
+
+
+@media (max-width:979px) {
+    #about p {
+        line-height: 1.6;
+        }
+}
+
+@media (max-width:767px) {
+    #about h1 {
+        color: #B12A41;
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        }
+        #about h1 small {
+            color: #333333;
+            display: block;
+            font-size: 20px;
+            }
+    
+    #about .btn {
+        display: block;
+        font-size: 1em;
+        margin: 10px 0;
+        padding: 24px 0;
+        width: 100%;
+    }
+
+}
+
 
 
 

@@ -5,7 +5,7 @@
 
 /* Font Set */
 body { 
-    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", Applegothic, "Malgun Gothic", NanumGothic, Dotum, Arial,sans-serif; 
+    font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic", Dotum, Arial,sans-serif; 
     /* -webkit-font-smoothing: antialiased; better for dark background */
     
     font-size: 16px;font-size: 1em;
@@ -14,11 +14,11 @@ body {
     
     }
     h1, h2, h3, h4, h5, h6 { 
-        font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", Applegothic, "Malgun Gothic", NanumGothic, Dotum, Arial,sans-serif;
+        font-family: "proxima-nova", "Open Sans", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic", Dotum, Arial,sans-serif;
     }
     
     .navbar, .brand, .btn {
-         font-family: "museo-slab", "proxima-nova","Open Sans","Helvetica Neue","Helvetica","Apple SD Gothic Neo", Applegothic, "Malgun Gothic", NanumGothic, Dotum, Arial, sans-serif;
+         font-family: "museo-slab", "proxima-nova","Open Sans","Helvetica Neue","Helvetica","Apple SD Gothic Neo", NanumGothic, Applegothic, "Malgun Gothic", Dotum, Arial, sans-serif;
          font-weight: 500;
     }
 

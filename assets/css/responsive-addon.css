@@ -2,9 +2,9 @@
    ADD-ON
    ============================================================================= */
 /* Grid Mobile fix */
-	@media (max-width: 768px) {
+	@media (max-width: 767px) {
 	 body { overflow-x: hidden; } /* Width fit fix in Mobile view */ 
-	 [class*="span"] { margin: 36px 0; }
+	 [class*="span"] { margin-bottom: 24px; }
 	}
 
     body.responsive { min-width:; }
@@ -15,9 +15,7 @@
 	}
 	
 	@media (min-width: 768px) and (max-width: 979px) {
-	  .navbar-fixed-top {
-	    margin-bottom: 0px;
-	    }
+	
     }
 
 	@media (max-width: 767px) {	  
