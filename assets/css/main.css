@@ -338,10 +338,13 @@ hr {
     color: #B12A41;
     font-size: 4rem;
     margin-bottom: 22px;
-}
+    }
+    #about h1 small {
+        color: #333;
+        }
 
 #about p {
-    color: #666;
+    color: #958a72;
     font-size: 1.13rem;
     line-height: 1.8;
     padding: 6px 0;
@@ -349,6 +352,8 @@ hr {
 
 #about .btn {
     margin: 10px 0;
+    padding: 20px;
+    font-size: 1em;
 }
 
 
@@ -471,7 +476,7 @@ hr {
 /* Footer
 ********************************/
 footer {
-    background: #eedaac;
+    background: #e6d9ba;
     color: #6c685e;
     }
     footer .container {
