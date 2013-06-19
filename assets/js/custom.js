@@ -85,17 +85,16 @@
     $(document).ready(function() {
         $(window).load(function() {
           // When the page has loaded
-          $("body").fadeTo("fast", 1);
+          $("body").fadeTo("slow", 1);
         });
     });
 
 
-    // Hide scroll-fading back image until page is fully loaded
-    $(document).ready(function() {
-        $(window).load(function() {
-          // When the page has loaded
-          $(".scroll-fade-back").fadeIn(1000);
-        });
-    });
+    // Hide scroll-fading back image until page is fully loaded -> Causing FF active menu jumpy bug
+    //$(document).ready(function() {
+    //    $(window).load(function() {
+    //      $(".scroll-fade-back").fadeIn(1000);
+    //    });
+    //});
 		
 		
