@@ -378,7 +378,7 @@ hr {
     width: 960px;
     height: 540px;
     background: #000;
-    display: none;
+    display: block;
     position: absolute;
     top: 90px;
     z-index: -1;
