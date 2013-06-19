@@ -83,13 +83,6 @@
 		
 
 		
-// Show page after fully loaded
-    $(document).ready(function() {
-        $(window).load(function() {
-          // When the page has loaded
-          $("body").fadeIn(800);
-        });
-    });
 
     // Hide scroll-fading back image until page is fully loaded
     $(document).ready(function() {
