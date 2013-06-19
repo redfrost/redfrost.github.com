@@ -71,6 +71,9 @@ a {
     text-align: center !important;
 }	
 
+.block {
+    display: block !important;
+}
 
 
 	
@@ -285,6 +288,11 @@ a {
             } 
 }
 
+@media (max-width:480px) {
+    .navbar .brand {
+        font-size: 26px;font-size:1.63rem;
+        }
+}
 
 
 
@@ -316,15 +324,27 @@ a {
 
 
 hr {
-    border-color: #ECE4D2 !important;
+    border-color: #aaa !important;
+    border-bottom: none !important;
+    border-style: dashed;
+    border-width: 2px;
 }
 
 
 /* About Section */
+#about { padding: 0 0 20px 0px; }
+
 #about h1 {
     color: #B12A41;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 22px;
+}
+
+#about p {
+    color: #666;
+    font-size: 1.13rem;
+    line-height: 1.8;
+    padding: 6px 0;
 }
 
 #about .btn {
@@ -333,9 +353,18 @@ hr {
 
 
 
+/* Project section */
+
+#project {
+    padding: 10px 0 50px;
+}
 
 
 /* Link section */
+
+#links { padding: 20px 0 20px; }
+#links small { padding: 0px 0 30px; }
+
 #links .link-box {
     margin-bottom: 26px;
     }
@@ -446,8 +475,8 @@ footer {
     color: #999999;
     }
     footer .container {
-        border-top: 1px dashed #AAAAAA;
-        padding: 14px 0 50px;
+        border-top: 2px dashed #AAAAAA;
+        padding: 30px 0 50px;
         }
 	    footer a:hover { opacity: 0.6; }
 
