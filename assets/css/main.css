@@ -366,7 +366,7 @@ hr {
         opacity: 1 !important;
         }
         .scroll-fade-back {
-            display: none;
+            display: none !important;
             }
 }
 
