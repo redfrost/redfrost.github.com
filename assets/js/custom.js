@@ -81,7 +81,7 @@
 		
 // Add your own		
 		
-    // Hide scroll-fading back image until page is fully loaded
+    // Hide content until the page is fully loaded
     $(document).ready(function() {
         $(window).load(function() {
           // When the page has loaded
