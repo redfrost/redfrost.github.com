@@ -696,3 +696,38 @@ html {
     -webkit-text-size-adjust: none; 
 }
 
+
+
+
+
+
+/* Testing
+********************************/
+
+/* Grid Test Colors */
+.show-grid {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    .show-grid [class*="span"] {
+      background-color: #D5C9BD;
+      border-radius: 3px 3px 3px 3px;
+      line-height: 30px;
+      min-height: 30px;
+      text-align: center;
+    }
+
+
+/* For Bootstrap3 */
+.show-grid .col {
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.show-grid .col p {
+    background: #eee;
+    margin: 0;
+}
