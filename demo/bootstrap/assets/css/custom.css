@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Custom styles
+   Custom Static page styles
    ========================================================================== */
 
 body { padding-top: 50px; }
@@ -13,28 +13,28 @@ body { padding-top: 50px; }
   
   
 /* Navigation */
-.navbar .navbar-inner {
+.static .navbar .navbar-inner {
     padding: 0;
     }
-    .navbar .nav {
+    .static .navbar .nav {
         margin: 0;
         display: table;
         width: 100%;
         }
-        .navbar .nav li {
+        .static .navbar .nav li {
             display: table-cell;
             width: 1%;
             float: none;
             text-align: center;
             }
-            .navbar .nav li a {
+            .static .navbar .nav li a {
                 font-weight: 600;
                 border-left: 1px solid #fff;
                 border-right: 1px solid #ddd;
                 }
                 
-      .navbar .nav li:first-child a { border-left:  0; }
-      .navbar .nav li:last-child a  { border-right: 0; }
+      .static .navbar .nav li:first-child a { border-left:  0; }
+      .static .navbar .nav li:last-child a  { border-right: 0; }
 
 
  /* Featured unit */
@@ -58,3 +58,26 @@ body { padding-top: 50px; }
     .back-top  { float: right; }
 
 
+
+
+
+
+/* ==========================================================================
+   Custom Responsive page styles
+   ========================================================================== */
+
+/* Logo */
+.responsive .navbar h1 {
+     margin: 0px;
+    }
+    .responsive .navbar .brand {
+         padding: 0px 20px!important;
+        }
+
+
+/* Fixed menu Margin fix */
+@media only screen and (max-width : 979px) {
+    .responsive {
+        padding-top: 0 !important;
+    }  
+}        
