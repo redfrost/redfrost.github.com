@@ -32,7 +32,12 @@ body { padding-top: 50px; }
                 border-left: 1px solid #fff;
                 border-right: 1px solid #ddd;
                 }
-                
+                .static .navbar .nav > .active > a, 
+                .static .navbar .nav > .active > a:hover, 
+                .static .navbar .nav > .active > a:focus {
+                    border-left: 1px solid #CCCCCC !important;
+                    }
+
       .static .navbar .nav li:first-child a { border-left:  0; }
       .static .navbar .nav li:last-child a  { border-right: 0; }
 
