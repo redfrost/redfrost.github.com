@@ -10,7 +10,7 @@
 	
 	
 	
-@media (min-width : 980px) {
+@media (min-width: 980px) {
 	body { padding-top: 50px; }
 }
 
@@ -97,12 +97,14 @@
                         }   
    
   	/* Desktop only */
-	@media (min-width : 1025px) {
+	@media (min-width: 1025px) {
 		/* Show sublevel on hover */
 		ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 	}
 
- 
+    @media (min-width: 768px) and (max-width: 979px) {
+        .navbar-fixed-top { margin-bottom: 0px; )
+    }
 
 
  
@@ -121,15 +123,16 @@
     	padding: 0;
     	}
 
-@media (max-width : 767px) {
-    .featured, .footer {
-        margin: -20px -20px 0 !important;
-        }
-        .featured .container-fluid,
-        .footer .container-fluid {
-            padding: 0 20px;
+
+    @media (max-width: 767px) {
+        .featured, .footer {
+            margin: -20px -20px 0 !important;
             }
-}
+            .featured .container-fluid,
+            .footer .container-fluid {
+                padding: 0 20px;
+                }
+    }
 
 
   
