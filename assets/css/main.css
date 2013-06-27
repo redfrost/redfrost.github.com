@@ -286,13 +286,23 @@ a {
             color: #eee !important;
             text-shadow: none;
             } 
+            
+        /* Always open dropdown menu in mobile */
+        .nav-collapse ul.nav li.dropdown ul.dropdown-menu {
+             display: block;
+        }       
 }
+
 
 @media (max-width:480px) {
     .navbar .brand {
         font-size: 26px;font-size:1.63rem;
         }
 }
+
+
+
+
 
 
 
