@@ -81,48 +81,14 @@
 		
 // Add your own		
 	
-	   setTimeout(function(){
-
-        $('.progress .bar').each(function() {
-            var me = $(this);
-            var perc = me.attr("data-percentage");
-
-            //TODO: left and right text handling
-
-            var current_perc = 0;
-
-            var progress = setInterval(function() {
-                if (current_perc>=perc) {
-                    clearInterval(progress);
-                } else {
-                    current_perc +=1;
-                    me.css('width', (current_perc)+'%');
-                }
-
-                me.text((current_perc)+'%');
-
-            }, 50);
-
-        });
-
-    },300);
-
+	
 		
 // Preloader - Hide content until the page is fully loaded
     $(document).ready(function() {
         $(window).load(function() {
           // When the page has loaded
-          $("#master-wrap").fadeTo("slow", 1);
-		  $("#preloader").fadeOut(); // will first fade out the loading animation
+          $("#master-wrap").fadeTo("slow", 1); // fade in content
+		  $("#preloader").fadeOut(); // fade out preloader
 	    });
     });
 
-
-    // Hide scroll-fading back image until page is fully loaded -> Causing FF active menu jumpy bug
-    //$(document).ready(function() {
-    //    $(window).load(function() {
-    //      $(".scroll-fade-back").fadeIn(1000);
-    //    });
-    //});
-		
- 
