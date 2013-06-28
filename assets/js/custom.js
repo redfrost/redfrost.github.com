@@ -88,9 +88,7 @@
         $(window).load(function() {
           // When the page has loaded
           $("#master-wrap").fadeTo("slow", 1);
-          
-
-		  $("#status").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+		  $("#preloader").fadeOut(); // will first fade out the loading animation
 	    });
     });
 
