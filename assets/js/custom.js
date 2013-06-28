@@ -1,4 +1,14 @@
-
+// Preloader - Hide content until the page is fully loaded
+    $(document).ready(function() {
+        $(window).load(function() {
+          // When the page has loaded
+		  $("#preloader").fadeOut(); // fade out preloader
+          $("#master-wrap").fadeTo("slow", 1); // fade in content
+	    });
+    });
+    
+    
+    
 // Smooth Scroll
     $(document).ready(function() {
         $('.nav a').smoothScroll({offset: -50});
@@ -83,12 +93,5 @@
 	
 	
 		
-// Preloader - Hide content until the page is fully loaded
-    $(document).ready(function() {
-        $(window).load(function() {
-          // When the page has loaded
-          $("#master-wrap").fadeTo("slow", 1); // fade in content
-		  $("#preloader").fadeOut(); // fade out preloader
-	    });
-    });
+
 
