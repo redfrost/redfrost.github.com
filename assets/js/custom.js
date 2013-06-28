@@ -1,7 +1,7 @@
 
 // Smooth Scroll
     $(document).ready(function() {
-        $('.nav a').smoothScroll({offset: -73});
+        $('.nav a').smoothScroll({offset: -50});
 	});
 
     // To Top
