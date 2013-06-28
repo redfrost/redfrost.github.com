@@ -697,16 +697,15 @@ footer {
 
 
 /* Plugin
-********************************/
-#preloader {
+*********************************/
+    #preloader {
 	width:200px;
 	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
-	margin:-100px 0 0 -100px; /* is width and height divided by two */
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -100px;
     border-radius: 20px !important;
    
-    /* Safari Flicker Fix #2 */
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translateZ(0);

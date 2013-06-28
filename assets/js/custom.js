@@ -2,28 +2,26 @@
     $(document).ready(function() {
         $(window).load(function() {
           // When the page has loaded
-		  $("#preloader").fadeOut(); // fade out preloader
-          $("#master-wrap").fadeTo("slow", 1); // fade in content
+            $("#preloader").fadeOut(); // fade out preloader   
+            $("#master-wrap").fadeTo("slow", 1); // fade in content
+	        $(".scroll-fade-back").fadeTo("slow", 1); // fade in content
 	    });
     });
-    
-    
-    
+
+
 // Smooth Scroll
     $(document).ready(function() {
-        $('.nav a').smoothScroll({offset: -50});
+        $('.nav a').smoothScroll({offset: -50});    // Menu
+	    $('.back_top a').smoothScroll({offset: 0}); // To Top
 	});
 
-    // To Top
-    $(document).ready(function() {
-        $('.back_top a').smoothScroll({offset: 0});
-    });
 
 
 // Scrollspy offset
     jQuery(document).ready(function () {
         $('[data-spy="scroll"]').scrollspy({ offset: 100 });
     });
+
 
 
 // Parallax 
@@ -93,5 +91,3 @@
 	
 	
 		
-
-
