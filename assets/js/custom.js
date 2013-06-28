@@ -80,13 +80,18 @@
 
 		
 // Add your own		
+	
+	
 		
-    // Hide content until the page is fully loaded
+// Preloader - Hide content until the page is fully loaded
     $(document).ready(function() {
         $(window).load(function() {
           // When the page has loaded
           $("#master-wrap").fadeTo("slow", 1);
-        });
+          
+
+		  $("#status").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+	    });
     });
 
 
@@ -97,10 +102,3 @@
     //    });
     //});
 		
-
-$(document).ready(function() {
-    $(window).load(function() { // makes sure the whole site is loaded
-		$("#status").fadeOut(); // will first fade out the loading animation
-		$("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
-	})
-});	
