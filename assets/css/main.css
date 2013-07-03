@@ -586,18 +586,18 @@ footer {
 
 
 /* Footer menu */
-.footer_menu {
+.footer-menu {
     float: left;
     width: 70%;
     }
-    .footer_menu_box { 
+    .footer-menu-box { 
 	    margin: 0; 
 	    }
-        .footer_menu_box li { 
+        .footer-menu-box li { 
 	        list-style: none; 
 	        display: inline-block; 
 	        }
-            .footer_menu_box li a { 
+            .footer-menu-box li a { 
 	            color: #6c685e;
 	            text-transform: uppercase; 
 	            margin-right: 10px; 
@@ -620,38 +620,38 @@ footer {
     }
 
 /* Scroll to Top Button */
-.back_top { 
+.back-top { 
 	width: 200px; 
 	float:right; 
 	text-align: right; 
 	margin: 14px 0;
 	}
-    .back_top a {
+    .back-top a {
 	    color: #6c685e;
     }
 
 /* SNS Links */
-.sns_icons { 
+.sns-icons { 
 	width: 30%; 
 	float: left; 
 	}
-    .sns_icons_box { float: right; }
-    .sns_icons_box li {
+    .sns-icons-box { float: right; }
+    .sns-icons-box li {
          display: inline-block;
          line-height: 20px;
          list-style: none outside none;
          padding: 0 4px;
         }
-        .sns_icons_box li a {
+        .sns-icons-box li a {
             color: #6c685e;
             font-size: 22px; font-size: 1.38rem;
             }
 
 
-.sns_icons .snslink01:hover { color: #355192; }
-.sns_icons .snslink02:hover { color: #3BBDE8; }
-.sns_icons .snslink03:hover { color: #4393BB; }
-.sns_icons .snslink04:hover { color: #FFAE5B; }
+.sns-icons .snslink01:hover { color: #355192; }
+.sns-icons .snslink02:hover { color: #3BBDE8; }
+.sns-icons .snslink03:hover { color: #4393BB; }
+.sns-icons .snslink04:hover { color: #FFAE5B; }
 
 
 

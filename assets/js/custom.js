@@ -11,17 +11,9 @@
 
 // Smooth Scroll
     $(document).ready(function() {
-        $('.nav a').smoothScroll({offset: -50});    // Menu
-	    $('.back_top a').smoothScroll({offset: 0}); // To Top
+        $('.navbar .nav a').smoothScroll({offset: -50});    // Menu
+	    $('.back-top a').smoothScroll({offset: 0}); // To Top
 	});
-
-
-
-// Scrollspy offset
-    jQuery(document).ready(function () {
-        $('[data-spy="scroll"]').scrollspy({ offset: 100 });
-    });
-
 
 
 // Parallax 
@@ -47,16 +39,13 @@
 
     
 
-// Tooltip
+// Scrollspy offset, Tooltip & Popover
     jQuery(document).ready(function () {
+        $('[data-spy="scroll"]').scrollspy({ offset: 100 }); 
+        $("[rel=popover]").popover();
         $("[rel=tooltip]").tooltip();
     });
 	
-	
-// Popover
-    jQuery(document).ready(function () {
-        $("[rel=popover]").popover();
-    });
 
 
 // Carousel	Auto
