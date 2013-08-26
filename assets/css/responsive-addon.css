@@ -1,6 +1,9 @@
 /* =============================================================================
    ADD-ON
    ============================================================================= */
+.container-fluid { margin: auto; max-width: 1100px;
+}
+
 /* Grid Mobile fix */
 	@media (max-width: 767px) {
 	 body { overflow-x: hidden; } /* Width fit fix in Mobile view */ 

@@ -55,7 +55,7 @@ When you look into an abyss, the abyss also looks into you.
         /* Desktop only */
         @media only screen and (min-width : 1025px) {
                 .container {
-                    width: 960px;
+                    width:;
                 }
         }
         .navbar-toggle:hover, .navbar-toggle:focus {
@@ -73,28 +73,34 @@ When you look into an abyss, the abyss also looks into you.
     <body id="top" data-spy="scroll">
     <div id="master-wrap" style="opacity: 0;">
 
-        <header class="navbar navbar-fixed-top">
-                <div class="container">
-                
-                    <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    
-                    <!-- Logo -->
-                    <a class="brand navbar-brand" href="index.html"><strong><i class="icon-bolt"></i> Redmund Frost</strong></a>
-        
-                    <!-- Navigation -->
-                    <nav class="nav-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="http://redfrost.com/">Home</a></li>
-                            <li><a href="grid.html">Bootstrap 2</a></li>
-                            <li class="active"><a href="grid-bs3.html">Bootstrap 3</a></li>                                                
-                        </ul>
-                    </nav><!--/.nav-collapse -->
-                </div>
-        </header><!-- /.navbar -->
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+
+    <div class="navbar-header">
+    <!-- Mobile button -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+	<!-- Logo -->
+    <a class="brand" href="index.html"><strong><i class="icon-bolt"></i> Redmund Frost</strong></a>
+    </div>
+
+	<!-- Navigation -->
+    <nav class="navbar-collapse collapse" role="navigation">
+      <ul class="nav navbar-nav">
+            <li><a href="http://redfrost.com/">Home</a></li>
+            <li><a href="grid.html">Bootstrap 2</a></li>
+            <li><a href="grid-fluid.html">Bootstrap 2 Fluid</a></li>
+            <li class="active"><a href="grid-bs3.html">Bootstrap 3</a></li> 
+      </ul>
+    </nav>
+
+  </div><!-- /.container -->
+</header>
 
 
         <div class="main-content">
@@ -102,7 +108,7 @@ When you look into an abyss, the abyss also looks into you.
             <section class="container">
 
             <div class="row">
-                <div class="col col-lg-12">
+                <div class="col col-sm-12">
                     <!-- Page title -->
                     <div class="page-header">
                     <h1>Grid system 12 responsive</h1>
@@ -114,99 +120,99 @@ When you look into an abyss, the abyss also looks into you.
             <article class="grid-system">
 
                   <div class="row show-grid">
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-3"><p>3</p></div>
-                    <div class="col col-lg-3"><p>3</p></div>
-                    <div class="col col-lg-3"><p>3</p></div>
-                    <div class="col col-lg-3"><p>3</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-4"><p>4</p></div>
-                    <div class="col col-lg-4"><p>4</p></div>
-                    <div class="col col-lg-4"><p>4</p></div>
+                    <div class="col col-sm-4"><p>4</p></div>
+                    <div class="col col-sm-4"><p>4</p></div>
+                    <div class="col col-sm-4"><p>4</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-1"><p>1</p></div>
-                    <div class="col col-lg-11"><p>11</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
+                    <div class="col col-sm-11"><p>11</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-2"><p>2</p></div>
-                    <div class="col col-lg-10"><p>10</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
+                    <div class="col col-sm-10"><p>10</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-3"><p>3</p></div>
-                    <div class="col col-lg-9"><p>9</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
+                    <div class="col col-sm-9"><p>9</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-4"><p>4</p></div>
-                    <div class="col col-lg-8"><p>8</p></div>
+                    <div class="col col-sm-4"><p>4</p></div>
+                    <div class="col col-sm-8"><p>8</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-5"><p>5</p></div>
-                    <div class="col col-lg-7"><p>7</p></div>
+                    <div class="col col-sm-5"><p>5</p></div>
+                    <div class="col col-sm-7"><p>7</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-6"><p>6</p></div>
-                    <div class="col col-lg-6"><p>6</p></div>
+                    <div class="col col-sm-6"><p>6</p></div>
+                    <div class="col col-sm-6"><p>6</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-7"><p>7</p></div>
-                    <div class="col col-lg-5"><p>5</p></div>
+                    <div class="col col-sm-7"><p>7</p></div>
+                    <div class="col col-sm-5"><p>5</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-8"><p>8</p></div>
-                    <div class="col col-lg-4"><p>4</p></div>
+                    <div class="col col-sm-8"><p>8</p></div>
+                    <div class="col col-sm-4"><p>4</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-9"><p>9</p></div>
-                    <div class="col col-lg-3"><p>3</p></div>
+                    <div class="col col-sm-9"><p>9</p></div>
+                    <div class="col col-sm-3"><p>3</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-10"><p>10</p></div>
-                    <div class="col col-lg-2"><p>2</p></div>
+                    <div class="col col-sm-10"><p>10</p></div>
+                    <div class="col col-sm-2"><p>2</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-11"><p>11</p></div>
-                    <div class="col col-lg-1"><p>1</p></div>
+                    <div class="col col-sm-11"><p>11</p></div>
+                    <div class="col col-sm-1"><p>1</p></div>
                   </div>
                 
                   <div class="row show-grid">
-                    <div class="col col-lg-12"><p>12</p></div>
+                    <div class="col col-sm-12"><p>12</p></div>
                   </div>
         
                 </article>   
